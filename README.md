@@ -34,20 +34,20 @@ To	run	the	simulation,	open	a	new	terminal	and	run	the	following	instruction:
 roslaunch evry_project_description simu_robot.launch
 ```
 
-### How to select the strategy you want to use
+## How to select the strategy you want to use
 Open a new terminal and run the following instruction:
 
-## Timing
+### Timing
 TO run the timing strategy, copy this line in a new terminal:
 ```bash
 roslaunch evry_project_strategy agent.launch
 ```
-## Round
+### Round
 TO run the round strategy, copy this line in a new terminal:
 ```bash
 roslaunch evry_project_strategy round.launch
 ```
-## Sweep
+### Sweep
 TO run the sweep strategy, copy this line in a new terminal:
 ```bash
 roslaunch evry_project_strategy sweep.launch
