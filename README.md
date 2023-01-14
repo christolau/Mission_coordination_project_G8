@@ -25,3 +25,11 @@ chmod +x strategy2.py
 chmod +x roundabout.py
 cd ~
 ```
+
+
+## How to open the simulator
+To	run	the	simulation,	open	a	new	terminal	and	run	the	following	instruction:
+
+```bash
+roslaunch evry_project_description simu_robot.launch
+```bash
