@@ -14,3 +14,8 @@ cd ~/catkin_ws && catkin_make && source ~/catkin_ws/devel/setup.bash
 ```
 
 You can now come back to the project subject.
+
+## Make a file executable
+In the same terminal, write the following instructions **ONE AFTER THE OTHER**:
+
+```bash
