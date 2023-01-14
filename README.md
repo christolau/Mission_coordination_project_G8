@@ -32,4 +32,13 @@ To	run	the	simulation,	open	a	new	terminal	and	run	the	following	instruction:
 
 ```bash
 roslaunch evry_project_description simu_robot.launch
+```
+
+## How to select the strategy you want to use
+Open a new terminal and run the following instruction:
+
 ```bash
+roslaunch evry_project_strategy agent.launch
+roslaunch evry_project_strategy round.launch
+```
+If you want to implement a new strategy, copy the files _agent.launch_ and _agent_terminal.launch_ and change in these files **type="agent.py"** into the name of your desired strategy 
