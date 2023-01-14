@@ -124,7 +124,7 @@ def run_demo():
     # Timing
     # Strategy 1: Q8
     delay = 2
-    rospy.sleep(delay + 3*(robot_name[-1]))
+    rospy.sleep(delay + 3*int(robot_name[-1]))
 
     while not rospy.is_shutdown():
         # Strategy
