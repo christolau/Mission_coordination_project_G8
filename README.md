@@ -21,8 +21,8 @@ In an other terminal, write the following instructions **ONE AFTER THE OTHER**:
 ```bash
 cd /home/user/catkin_ws/src/Mission_coordination_project_G8/evry_project_strategy/nodes
 chmod +x agent.py
-chmod +x strategy2.py
-chmod +x roundabout.py
+chmod +x sweep.py
+chmod +x round.py
 cd ~
 ```
 
